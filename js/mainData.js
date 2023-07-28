@@ -4,7 +4,9 @@ const mainData = () => {
 			return response.json()
 		})
 		.then((data) => {
-			console.log(data)
+			for (let i = 0; i < data.length; i++) {
+			console.log(data[i].title) //печатает все 36 названий аниме
+			}
 		})
 }
 
