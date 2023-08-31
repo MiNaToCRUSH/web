@@ -6,9 +6,13 @@
 
 ## Работа с проэктом
 `git init` Инициализация проэкта
+
 `rm -rf .git` Удалить репозиторий .git(Отменить git init)
+
 `git config --global user.name "[name]"` Смена имени
+
 `git config --global user.email "[e-mail]"` Смена почты
+
 `git remote add origin https://github.com/[your-link].git` Ссылка на сервер(origin)
 
 
